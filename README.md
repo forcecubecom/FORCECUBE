@@ -7,7 +7,7 @@ An Android library wich tracks iBeacons and sends data to server.
 Documentation
 =========
 
-Open the wiki for detailed documentation.
+Open the [wiki](https://github.com/forcecubecom/FORCECUBE/wiki) for detailed documentation.
 
 Basic Usage
 =========
