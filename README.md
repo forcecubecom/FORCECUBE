@@ -39,7 +39,7 @@ ForceCube.getInstance().addBeaconEventListener(new ForceCube.BeaconEventListener
 Steps to setup library in Android Studio
 =========
 
-1. Download library archive
+1. Download the [library archive](https://github.com/forcecubecom/FORCECUBE/blob/master/app-release.aar?raw=true)
 
 2. From Android Studio open **File** > **New Module** and select **Import .JAR or .AAR Package** then select downloaded file and hit finish
 
