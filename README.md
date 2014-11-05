@@ -12,13 +12,13 @@ Open the [wiki](https://github.com/forcecubecom/FORCECUBE/wiki) for detailed doc
 Basic Usage
 =========
 
-SDK provides "ForceCube" class, this is the only class which you should use.
+SDK provides "ForceCuBe" class, this is the only class which you should use.
 
-Here are the 2 methods which provides "ForceCube" class
+Here are the 2 methods which provides "ForceCuBe" class
 
 ```java
-ForceCube.getInstance().startService(this, "<your_key_here>", callback, Config.defaultConfiguration());
-ForceCube.getInstance().addBeaconEventListener(new ForceCube.BeaconEventListener() {
+ForceCuBe.getInstance().startService(this, "<your_key_here>", callback, Config.defaultConfiguration());
+ForceCuBe.getInstance().addBeaconEventListener(new ForceCube.BeaconEventListener() {
 	@Override
 	public void onEnterRegionAction(Event event) {
 		Log.d("sample", "onEnterRegionAction");
