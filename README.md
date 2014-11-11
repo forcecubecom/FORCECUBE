@@ -12,13 +12,13 @@ Open the [wiki](https://github.com/forcecubecom/FORCECUBE/wiki) for detailed doc
 Basic Usage
 =========
 
-SDK provides "ForceCuBe" class, this is the only class which you should use.
+SDK provides "ForceCube" class, this is the only class which you should use.
 
-Here are the 2 methods which provides "ForceCuBe" class
+Here are the 2 methods which provides "ForceCube" class
 
 ```java
-ForceCuBe.getInstance().startService(this, "<your_key_here>", callback, Config.defaultConfiguration());
-ForceCuBe.getInstance().addBeaconEventListener(new ForceCube.BeaconEventListener() {
+ForceCube.getInstance().startService(this, "<your_key_here>", callback, Config.defaultConfiguration());
+ForceCube.getInstance().addBeaconEventListener(new ForceCube.BeaconEventListener() {
 	@Override
 	public void onEnterRegionAction(Event event) {
 		Log.d("sample", "onEnterRegionAction");
@@ -39,7 +39,7 @@ ForceCuBe.getInstance().addBeaconEventListener(new ForceCube.BeaconEventListener
 Steps to setup library in Android Studio
 =========
 
-1. Download the [library archive](https://github.com/forcecubecom/FORCECUBE/blob/master/app-release.aar?raw=true)
+1. Download library archive
 
 2. From Android Studio open **File** > **New Module** and select **Import .JAR or .AAR Package** then select downloaded file and hit finish
 
